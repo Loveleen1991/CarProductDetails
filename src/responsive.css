@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) {
+    .mainContainer {
+      max-width: 768px;
+      max-height: 768px;;
+    }
+    #carImage{
+        height: 50%;
+        width: 50%;
+    }
+  } 
+
+
+  @media only screen and (min-width: 1024px) {
+    #carImage{
+        height: 100%;
+        width: 100%;
+    }
+  } 

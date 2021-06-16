@@ -1,0 +1,34 @@
+.carItem{
+    font-size: 14px;
+    padding:10px ;
+
+}
+.bodyType{
+    text-align: left;  
+
+}
+.carImage{
+  padding-top: 10px;
+}
+.modelName{
+    text-align: left;  
+
+}
+
+.carDetails{
+    display: flex;
+    flex-direction: row;
+}
+
+.modelType{
+    padding-left: 3px;
+}
+
+#anglearrow{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+
+

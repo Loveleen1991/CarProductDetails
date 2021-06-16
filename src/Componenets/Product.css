@@ -1,0 +1,45 @@
+.carContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+
+  .arrow{
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 40px;
+      
+  }
+
+  #leftArrow{
+      transform: rotate(180deg);
+  }
+
+  #rightArrow{
+    padding-left: 7px;
+  }
+
+  .searchBox{
+      display: flex; 
+      justify-content: center;
+  }
+
+  #rightArrowDisable{
+      pointer-events: none;
+      opacity: 0.5;
+  }
+
+  #leftArrowDisable{
+    transform: rotate(180deg);
+    pointer-events: none;
+    opacity: 0.5;
+
+  }
